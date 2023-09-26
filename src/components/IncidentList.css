@@ -1,0 +1,42 @@
+.incident-list-container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.incident-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.incident-list-table {
+  width: 100%;
+}
+
+.incident-list-table th {
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.incident-list-table td {
+  text-align: center;
+}
+
+.create-incident-button {
+  margin-top: 20px;
+}
+/* Make even rows have a gray background color */
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #f8f9fa;
+}
+
+/* Make odd rows have a white background color */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+.incident-list-container thead {
+  background-color: #007bff;
+  color: white;
+}
